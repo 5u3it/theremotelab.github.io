@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>The Remote Lab</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet"> 
+    <link href="../css/lightbox.css" rel="stylesheet"> 
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+    <header id="header">      
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 overflow">
+                   <div class="social-icons pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a><strong>Connect with us !! </strong></a></li>
+                            <li><a href="https://www.facebook.com/TheRemoteLab" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/TheRemoteLab" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-youtube" target="_blank"></i></a></li>
+                            <li><a href="https://github.com/TheRemoteLab" target="_blank"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/the-remote-lab" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div> 
+                </div>
+             </div>
+        </div>
+        <div class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <h1><img src="../images/ico/favicon.ico" alt="logo"> The 
+                            Remote
+                            Lab</h1>
+                        <!--<h2><img src="images/logo.png" alt="logo"></h2>-->
+                    </a>
+                    
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../index.html">Home</a></li>
+                        <li class="active"><a href="aboutus.html" style="color:#E56625">About Us</a></li>
+                        <li class="dropdown"><a href="#">Resources <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="http://www.theremotelab.io/blog">Blog</a></li>
+                                <li><a href="coming-soon.html">Meetups and Events</a></li>
+                                <li><a href="presentation.html">Presentations</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Solutions<i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="coming-soon.html">Assessment Design</a></li>
+                                <li><a href="coming-soon.html">DevOps Consulting</a></li>
+                            </ul>
+                        </li>      
+                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                            <ul role="menu" class="sub-menu">
+                                <li><a href="service.html">Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a></li>                    
+                    </ul>
+                </div>
+                <div class="search">
+                    <form role="form">
+                        <i class="fa fa-search" style="color:#E56625"></i>
+                        <div class="field-toggle" style="color:#E56625">
+                            <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/#header-->
+
+
+<div class="greywraper section bottom_rel lightgrey" id="ass" name="ass">
+<div class="crop noshow tr_left tr_white"></div>
+<br>
+<br>
+   <div class="container"> 
+   <div class="row">
+   <br>
+                <h1 class="centered">Assessment</h1>
+                <hr>
+ <section class="well">              
+    <div class="stepwizard" >
+        <div class="stepwizard-row setup-panel">
+        <div class="stepwizard-step">
+            <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+           
+        </div>
+        <div class="stepwizard-step">
+            <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+           
+        </div>
+        <div class="stepwizard-step">
+            <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+           
+        </div> 
+        <div class="stepwizard-step">
+            <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+           
+        </div>
+        <div class="stepwizard-step">
+            <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled">5</a>
+           
+        </div>
+        </div>
+    </div>
+<br>
+<form role="form">
+    <div class="row setup-content" id="step-1">
+        <div class=" col-xs-offset-1 col-xs-10 col-xs-offset-1">
+            <div class=" col-md-offset-1 col-md-10 col-xs-offset-1">
+         <h3 style="text-align:center;color:#333" >Lets start the assessment, please click on start to proceed.</h3>
+
+         <div style="text-align:center">
+         <br>
+            <span class="btn btn-info nextBtn">Start Assessment</span>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    
+    <div class="row setup-content" id="step-2">
+        <div class=" col-xs-offset-1 col-xs-10 col-xs-offset-1">
+            <div class=" col-md-offset-1 col-md-10 col-xs-offset-1">
+            <div class="notice notice-info" style="font-size: 18px;">
+                <strong>Q.1.</strong>We use short-lived branches for developing new features
+            </div>
+                
+                <span>Developers write small units of functionality on version control branches rather than keeping branches open for long periods of time and large units of change.</span>
+                <br>
+                <br>
+                <div class="form-group">
+                  <div class="funkyradio">
+                      <div class="funkyradio-success">
+                    <input type="radio" name="Q1" id="checkbox5" value="Never (We don't do it)"/>
+                    <label for="checkbox5">Never (We don't do it)</label>
+                    <div class="funkyradio-success">
+                    <input type="radio" name="Q1" id="checkbox6" value="Ocassionally (We do it in a ad hoc fashion)"/>
+                    <label for="checkbox6">Ocassionally (We do it in a ad hoc fashion)</label>
+                    </div>
+                             <div class="funkyradio-success">
+                    <input type="radio" name="Q1" id="checkbox7" value="Indivisual Projects (We do it consistently for specific projects)" />
+                    <label for="checkbox7">Individual Projects (We do it consistently for specific projects)</label>
+                </div>
+                <div class="funkyradio-success">
+                    <input type="radio" name="Q1" id="checkbox8" value="Enterprise Standard" />
+                    <label for="checkbox8">Enterprise Standard</label>
+                </div>
+        </div>
+        </div>
+        </div>
+        <button  id="next1" class="btn btn-info nextBtn btn-sm pull-right" type="button" >Next</button>
+            </div>
+        </div>
+    </div>
+    <div class="row setup-content" id="step-3">
+        <div class=" col-xs-offset-1 col-xs-10 col-xs-offset-1">
+            <div class=" col-md-offset-1 col-md-10 col-xs-offset-1">
+            <div class="notice notice-info" style="font-size: 18px;">
+             <strong>Q.2.</strong>We check in changes to master at least daily
+             </div>
+                
+                <span>The Developers merge their code changes to the main version control branch at least once a day.</span>
+                <br>
+                <br>
+                <div class="form-group">
+                <div class="funkyradio">
+                    <div class="funkyradio-success">
+                    <input type="radio" name="Q2" id="checkbox9" value="Never (We don't di it)"/>
+                    <label for="checkbox9">Never (We don't do it)</label>
+                    <div class="funkyradio-success">
+                    <input type="radio" name="Q2" id="checkbox10" value="Ocassionally (We do it in a ad hoc fashion)" />
+                    <label for="checkbox10">Ocassionally (We do it in a ad hoc fashion)</label>
+                    </div>
+                <div class="funkyradio-success">
+                    <input type="radio" name="Q2" id="checkbox11" value="Indivisual Projects (We do it consistently for specific projects)"  />
+                    <label for="checkbox11">Indivisual Projects (We do it consistently for specific projects)</label>
+                </div>
+                <div class="funkyradio-success">
+                    <input type="radio" name="Q2" id="checkbox12" value="Enterprise Standard"/>
+                    <label for="checkbox12">Enterprise Standard</label>
+                </div>
+                 </div>
+        </div>
+        </div>
+         <button id="next2" class="btn btn-info nextBtn btn-sm pull-right" type="button" >Next</button>
+        </div>
+    </div>
+    </div>
+    <div class="row setup-content" id="step-4">
+        <div class=" col-xs-offset-1 col-xs-10 col-xs-offset-1">
+            <div class=" col-md-offset-1 col-md-10 col-xs-offset-1">
+            <div class="notice notice-info" style="font-size: 18px;">
+             <strong>Q.3.</strong>We have the ability to deploy changes multiple times per day
+
+             </div>
+                
+                <span>Developers write small units of functionality on version control branches rather than keeping branches open for long periods of time and large units of change.</span>
+                <br>
+                <br>
+                <div class="form-group">
+                <div class="funkyradio">
+                <div class="funkyradio-success">
+                    <input type="radio" name="Q3" id="checkbox55" value="Never (We don't di it)"/>
+                    <label for="checkbox55">Never (We don't do it)</label>
+                    <div class="funkyradio-success">
+                    <input type="radio" name="Q3" id="checkbox66" value="Ocassionally (We do it in a ad hoc fashion)"/>
+                    <label for="checkbox66">Ocassionally (We do it in a ad hoc fashion)</label>
+                    </div>
+                <div class="funkyradio-success">
+                    <input type="radio" name="Q3" id="checkbox77" value="Indivisual Projects (We do it consistently for specific projects)"/>
+                    <label for="checkbox77">Indivisual Projects (We do it consistently for specific projects)</label>
+                </div>
+                <div class="funkyradio-success">
+                    <input type="radio" name="Q3" id="checkbox88" value="Enterprise Standard" />
+                    <label for="checkbox88">Enterprise Standard</label>
+                </div>
+        </div>
+        </div>
+        <p>Please enter your e-mail here</p>
+       <input type="email" class="form-control" id="ass_email"  autocomplete="off" name="email" placeholder="Email" required>
+        </div>
+         <button id="submit" class="btn btn-info nextBtn btn-sm pull-right" type="button" >Submit</button>
+            </div>
+        </div>
+    </div>
+        <div class="row setup-content" id="step-5">
+        <div class=" col-xs-offset-1 col-xs-10 col-xs-offset-1">
+            <div class=" col-md-offset-1 col-md-10 col-xs-offset-1" > 
+                
+                <h3 style="text-align:center;color:#333">Thank You! you have successfully completed your Assessment.</h3>
+                <br>
+                <br>
+        </div>
+    </div>
+</form>
+</section>
+
+
+<footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center bottom-separator">
+                    <img src="../images/home/under.png" class="img-responsive inline" alt="">
+                </div>
+                <div class="col-md-4 col-sm-6">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="contact-info bottom">
+                        <h2><i class="fa fa-book"></i>  Contacts</h2>
+                        <address>
+                        <i class="fa fa-envelope"></i>  E-mail: <a href="mailto:hello@theremotelab.com">hello@theremotelab.com</a> <br> 
+                        <i class="fa fa-phone"></i>  Phone: +44 (0)2089823596  <br> 
+                        </address>
+
+                        <h2><i class="fa fa-home"></i> Address</h2>
+                        <address>
+                        UK Office <br>
+                        5th floor Hyde Park Hayes 3, <br>
+                        11 Millington Road, <br>
+                        Hayes, Middlesex, UB3 4AZ <br>
+                        United Kingdom <br>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="contact-form bottom">
+                        <h2>Send a message</h2>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                            </div>                        
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="copyright-text text-center">
+                        <p><strong>&copy; Copyright © 2015 The Remote Lab UK Ltd. All rights reserved.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/lightbox.min.js"></script>
+    <script type="text/javascript" src="../js/wow.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>   
+</body>
+</html>
