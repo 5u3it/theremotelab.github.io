@@ -433,11 +433,12 @@
         });
         //fire base code integration
         //create firebase reference
-        var myFirebaseRef = new Firebase("https://trldb.firebaseio.com/");
-        var contactsRef = myFirebaseRef.child('contacts');
-        var assessment_data = myFirebaseRef.child('Ass_user_info');
+        // var myFirebaseRef = new Firebase("https://trldb.firebaseio.com/");
+        // var contactsRef = myFirebaseRef.child('contacts');
+        // var assessment_data = myFirebaseRef.child('Ass_user_info');
         var assObj = [];
         // alert("hi firebase");
+        var assessment_data_string = "{";
 
         //save contact
         $('.addValue').on("click", function( event ) {
@@ -461,6 +462,8 @@
                 Q1: 'We use short-lived branches for developing new features',
                 Ans: $('input[name=Q1]:checked').val()
             });
+            assessment_data_string = "Q1: We use short-lived branches for developing new features\n" + "Ans: " + $('input[name=Q1]:checked').val() + "\n\n";
+
         });
         $('#next2').on("click", function( event ){
             assObj
@@ -468,6 +471,7 @@
                 Q2: 'We check in changes to master at least daily',
                 Ans: $('input[name=Q2]:checked').val()
             });
+            assessment_data_string = assessment_data_string + "Q2: We check in changes to master at least daily\n" + "Ans: " + $('input[name=Q2]:checked').val() + "\n\n";
         });
         $('#submit').on("click", function( event ){
             assObj
@@ -476,7 +480,13 @@
                 Ans: $('input[name=Q3]:checked').val(),
                 user_email: $('#ass_email').val()
             });
-            assessment_data.push({assObj});
+            assessment_data_string = assessment_data_string + "Q3: We have the ability to deploy changes multiple times per day\n" + "Ans: " + $('input[name=Q3]:checked').val() + "\n\n";
+            assessment_data_string = assessment_data_string + "Email: " + $('#ass_email').val() + "\n\n";
+            //assessment_data.push({assObj});
+            var xhttp = new XMLHttpRequest();
+            var data = {"text": assessment_data_string, "channel": "#website-assessments", "username": "assessment-bot", "icon_emoji": ":sunglasses:"};
+            xhttp.open("POST", "https://hooks.slack.com/services/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", true);
+            xhttp.send(JSON.stringify(data));
         });
     </script>
 
